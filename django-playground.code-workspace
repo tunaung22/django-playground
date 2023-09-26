@@ -1,0 +1,59 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.iconTheme": "vscode-icons",
+		"workbench.colorCustomizations": {
+			"editorRuler.foreground": "#8f458d"
+		},
+		"explorer.openEditors.visible": 1,
+		"editor.rulers": [
+			80
+		],
+		"workbench.editor.enablePreview": false,
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.minimap.enabled": false,
+		"editor.fontLigatures": true,
+		"editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+		"editor.fontSize": 14,
+		"editor.letterSpacing": 0.25,
+		"editor.lineHeight": 22,
+		"editor.renderWhitespace": "all",
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "on",
+		"editor.wordWrap": "off",
+		"[python]": {
+			"editor.guides.indentation": true,
+			"editor.tabSize": 4,
+			"editor.renderWhitespace": "trailing",
+			// "editor.wordBasedSuggestions": false,
+			"editor.defaultFormatter": "ms-python.autopep8",
+			"editor.foldingImportsByDefault": false,
+		},
+		// FILES ASSOCIATIONS
+		// ---------------------------------------------------
+		"files.associations": {
+			"**/*.html": "html",
+			"**/templates/**/*.html": "django-html",
+			"**/templates/*": "django-txt",
+			"**/requirements{/**,*}.{txt,in}": "pip-requirements"
+		},
+		// EXCLUDE FILES (hide from explorer)
+		// ---------------------------------------------------
+		"files.exclude": {
+			"**/__pycache__": true,
+			"**/.pytest_cache": true,
+			"**/*.pyc": true,
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true
+		},
+	}
+}
